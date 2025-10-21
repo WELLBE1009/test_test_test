@@ -71,7 +71,7 @@
 
         async function fetchSheetData(sheetName) {
             const query = 'select *';
-            const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(sheetName)}&tq=${encodeURIComponent(query)}`;
+            const url = `https://docs.google.com/spreadsheets/d/1mhzjuXpC7YYus9qvzlLahRwlz3QaQgjVQpYNRaugOU4/edit?gid=0#gid=0`;
             
             const response = await fetch(url);
             if (!response.ok) {
